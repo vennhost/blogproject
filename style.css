@@ -1,0 +1,32 @@
+
+h1 {
+    border-left: 2px solid greenyellow;
+    margin: 25px;
+    color: rgb(234, 202, 10);
+}
+
+header {
+    padding-bottom: 30px;
+}
+
+form input {
+    background: #f0f0f0;
+    border: none;
+    border-left: 2px solid #fff;
+    width: 100%;
+    padding: 20px;
+    font-size: 26px;
+}
+button.btn {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 20px 24px;
+    font-size: 20px;
+    color: greenyellow;
+    transition: background 2s, color 2s;
+}
+
+button.btn:focus {
+    background: #fff;
+}
